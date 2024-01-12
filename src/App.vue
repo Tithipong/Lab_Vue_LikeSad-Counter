@@ -67,11 +67,9 @@ import PhotoCard from "./components/icons/PhotoCard.vue";
   <main role="main">
     <section class="jumbotron text-center">
       <div class="container">
-        <h1>Album Examples</h1>
+        <h1>EL GATO</h1>
         <p class="lead text-muted">
-          <br />Something short and leading about the collection below—its
-          contents, the creator, etc. Make it short and sweet, but not too short
-          so folks don’t simply skip over it entirely.<br />
+          <br />In a quiet suburban neighborhood, where every lawn is perfectly manicured and the nights are unusually silent, there lives a cat named El Gato. But he's no ordinary feline. El Gato is a master of mischief, a connoisseur of chaos, and a virtuoso of midnight escapades.<br />
         </p>
       </div>
     </section>
@@ -95,14 +93,6 @@ import PhotoCard from "./components/icons/PhotoCard.vue";
     <div class="container">
       <p class="float-end mb-1">
         <a href="#">Back to top</a>
-      </p>
-      <p class="mb-1">
-        Album example is &copy; Bootstrap, but please download and customize it
-        for yourself!
-      </p>
-      <p class="mb-0">
-        New to Bootstrap? <a href="/">Visit the homepage</a> or read our
-        <a href="../getting-started/introduction/">getting started guide</a>.
       </p>
     </div>
   </footer>

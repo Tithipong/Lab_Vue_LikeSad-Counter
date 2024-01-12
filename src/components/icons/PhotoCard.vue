@@ -1,25 +1,14 @@
 <template>
   <div class="col-md-4">
     <div class="card shadow-sm">
-      <svg
-        class="bd-placeholder-img card-img-top"
-        width="100%"
-        height="225"
-        xmlns="http://www.w3.org/2000/svg"
-        role="img"
-        aria-label="Placeholder: Thumbnail"
-        preserveAspectRatio="xMidYMid slice"
-        focusable="false"
-      >
-        <title>Placeholder</title>
-        <rect width="100%" height="100%" fill="#55595c" />
-        <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-      </svg>
+      <img
+        src="https://templated.co/meme-templates/wp-content/uploads/cat-meme-template-2.jpg"
+        class="card-img-top"
+        alt="Meme Image"
+        style="width: 100%; height: 400px; object-fit: cover"
+      />
       <div class="card-body">
-        <p class="card-text">
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
-        </p>
+        <p class="card-text">El Gato: Mew.</p>
         <div class="d-flex justify-content-between align-items-center">
           <div>
             <button
@@ -27,17 +16,16 @@
               class="btn btn-outline-primary"
               @click="likeClick()"
             >
-              <i class="bi bi-hand-thumbs-up-fill"></i> Like {{ like }}
-            </button>
-            <button
-              type="button"
-              class="btn btn-outline-primary"
-              @click="sadClick()"
-            >
-              <i class="bi bi-emoji-frown-fill"></i> Sad {{ sad }}
+            <i class="bi bi-hand-thumbs-up-fill"></i>Like {{ like }}
             </button>
           </div>
-          <small class="text-muted">9 mins</small>
+          <button
+            type="button"
+            class="btn btn-outline-danger"
+            @click="sadClick()"
+          >
+            <i class="bi bi-emoji-frown-fill"></i> Sad {{ sad }}
+          </button>
         </div>
       </div>
     </div>
